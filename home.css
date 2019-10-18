@@ -154,7 +154,7 @@ html, body, #gallery {
     padding: 15px 20px;
     position: absolute;
     bottom: 13.555%;
-    right: 10%;
+    right: 13%;
     z-index: 200;
     background-color: #2D3B51;
     color: #FFF;
@@ -181,18 +181,20 @@ top:-6rem;
 
 
 #gallery{
-width:80vw;
+width:76vw;
 height:75vh;
 position:absolute;
 top: 49%;
-left: 50%;
+left: 49%;
 transform: translate3d(-50%,-50%, 0);
 }
 
 .baseImage{
 	position: relative;
-	background-color: #EFF2FB;
-}
+	
+background: linear-gradient(90deg, #EFF2FB 60%, rgba(0,0,0,0) 30%), linear-gradient(0deg, #EFF2FB 60%, #FFF 60%);
+	/* background-image: linear-gradient(to right, #EFF2FB 50% , #fff 50%); */
+} 
 
 .abc{}
 
@@ -20610,7 +20612,7 @@ screen and (min-width: 56.25em) {
 	height:35rem;
 }
 .our-sectors-container .sidebar {
-	height: 35rem;
+	height: 100%;
 	width: 100%;
 	background-color: #fff
 }
@@ -20647,7 +20649,7 @@ screen and (min-width: 56.25em) {
 }
 
 .our-sectors-container .sidebar .accordion {
-	padding: 0 0 30px calc(100px - 2rem)
+	padding: 0 0 60px calc(100px - 2rem)
 }
 
 .our-sectors-container .sidebar .accordion .accordion-item.is-active .accordion-title {
