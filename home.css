@@ -153,7 +153,7 @@ html, body, #gallery {
     width: 360px;
     padding: 15px 20px;
     position: absolute;
-    bottom: 12.555%;
+    bottom: 13.555%;
     right: 10%;
     z-index: 200;
     background-color: #2D3B51;
@@ -179,11 +179,12 @@ position: absolute;
 top:-6rem;
 }
 
+
 #gallery{
 width:80vw;
 height:75vh;
 position:absolute;
-top: 50%;
+top: 49%;
 left: 50%;
 transform: translate3d(-50%,-50%, 0);
 }
@@ -218,7 +219,7 @@ transform: translate3d(-50%,-50%, 0);
 	padding:0!important;
 }
 
-.card-header:hover{
+.customCardHeader:hover{
 	color: #F2B31F;
 }
 
@@ -11542,11 +11543,8 @@ screen and (min-width: 40em) {
 }
 
 .progress {
-	height: 1rem;
-	margin-bottom: 1rem;
-	border-radius: 0;
-	background-color: #cacaca
-}
+	height: 0.7rem!important;
+	}
 
 .progress.primary .progress-meter {
 	background-color: #1779ba
